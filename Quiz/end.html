@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/door_internet_key_lock_password_safe_security_icon_127075.ico"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Congrats!</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="/WOW-master/css/libs/animate.css" />
+    <link rel="stylesheet" href="/WOW-master/css/site.css" />
+  </head>
+  <body>
+    <style>
+      .wow:first-child {
+        visibility: hidden;
+      }
+    </style>
+    <div class="container" > 
+     <section>
+      <div id="end" class=" flex-center flex-column wow fadeInUp">
+        <h3 data-wow-delay="0s" style="  text-align: center; margin: 5px; color: whitesmoke;">
+          Congratulations! You finished the quiz with
+
+          <span data-wow-delay="0s"
+            id="finalScore"
+            style="margin: 2px;color:rgb(81, 186, 164) ;" class=" wow fadeInUp"
+          ></span>
+          points!
+        </h3>
+
+        <form class=" wow fadeInUp" data-wow-delay="0.2s"> 
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            style="background-color: #1e2832; width: 30rem;"
+          />
+
+          <button 
+            type="submit"
+            class="big special button "
+            id="saveScoreBtn"
+            onclick="saveHighScore(event) "
+            disabled
+            style="margin: 5px; overflow: hidden;"
+          >
+            Save
+          </button>
+        </form>
+
+        <a data-wow-delay="0.4s" class="big special button  wow fadeInUp" style="margin: 5px" href="game.html"
+          >Play Again</a
+        >
+
+        <a data-wow-delay="0.6s" class="big special button  wow fadeInUp" style="margin: 5px" href="index.html"
+          >Go Back</a
+        >
+      </div>
+    </div>
+    <script src="end.js"></script>
+    <script src="/WOW-master/dist/wow.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+  </body>
+</html>

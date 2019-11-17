@@ -1,0 +1,30 @@
+/*
+	English project website by Rayan Zanina, Abdou Braham and Omar Bouhlel
+	
+  _____   ______   __   
+ / ___ \ (  ___ \ /  \  
+( (   ) )| (   ) )\/) ) 
+( (___) || (__/ /   | | 
+ \____  ||  __ (    | | 
+      ) || (  \ \   | | 
+/\____) )| )___) )__) (_
+\______/ |/ \___/ \____/
+*/
+
+/* Feature */
+
+	.feature .image {
+		width: 48%;
+		float: left;
+	}
+
+	.feature .content {
+		width: 52%;
+		float: left;
+	}
+
+	.feature:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
